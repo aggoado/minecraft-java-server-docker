@@ -8,7 +8,7 @@ RUN apt-get update && \
 
 # Set environment variables
 ENV EULA=true \
-    MEMORY=2G
+    MEMORY=10G
 
 # Expose the Minecraft server port
 EXPOSE 25565
